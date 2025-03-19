@@ -1,8 +1,8 @@
-package dev.deepak.userservicetestfinal.controllers;
+package com.project.userservice.controllers;
 
-import dev.deepak.userservicetestfinal.dtos.*;
-import dev.deepak.userservicetestfinal.models.SessionStatus;
-import dev.deepak.userservicetestfinal.services.AuthService;
+import com.project.userservice.dtos.*;
+import com.project.userservice.models.SessionStatus;
+import com.project.userservice.services.AuthService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

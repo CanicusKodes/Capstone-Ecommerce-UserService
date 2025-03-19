@@ -1,13 +1,13 @@
-package dev.deepak.userservicetestfinal;
+package com.project.userservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserservicetestfinalApplication {
+public class UserserviceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UserservicetestfinalApplication.class, args);
+        SpringApplication.run(UserserviceApplication.class, args);
     }
 
 }

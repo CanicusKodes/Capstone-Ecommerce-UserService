@@ -1,4 +1,4 @@
-package dev.deepak.userservicetestfinal.models;
+package com.project.userservice.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
