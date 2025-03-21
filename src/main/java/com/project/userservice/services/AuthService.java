@@ -93,7 +93,7 @@ public class AuthService {
         //        headers.put(HttpHeaders.SET_COOKIE, token);
 
         MultiValueMapAdapter<String, String> headers = new MultiValueMapAdapter<>(new HashMap<>());
-        headers.add(HttpHeaders.SET_COOKIE, "auth-token:" + jwsToken);
+        headers.add(HttpHeaders.AUTHORIZATION, "auth-token:" + jwsToken);
 
 
 
