@@ -22,6 +22,7 @@ public class UserService {
     }
 
     public UserDto getUserDetails(Long userId) {
+        System.out.println("We were here");
         Optional<User> userOptional = userRepository.findById(userId);
 
         if (userOptional.isEmpty()) {

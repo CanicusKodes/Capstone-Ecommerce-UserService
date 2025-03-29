@@ -20,9 +20,9 @@ public class UserController {
     public ResponseEntity<UserDto> getUserDetails(@PathVariable("id") Long userId) {
         System.out.println("Got the request here");
 
-        UserDto userDto = new UserDto();
-//        UserDto userDto = userService.getUserDetails(userId);
-//
+        //UserDto userDto = new UserDto();
+        UserDto userDto = userService.getUserDetails(userId);
+
         return new ResponseEntity<>(userDto, HttpStatus.OK);
     }
 
